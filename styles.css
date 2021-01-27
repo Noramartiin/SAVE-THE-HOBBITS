@@ -1,0 +1,93 @@
+ /* #canvas1{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%,-50%);
+    background-image: url(../SAVE-THE-HOBBITS/Images/Fondo3rcrt2.jfif);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+} */
+
+
+/* body{
+    background-image: url(../SAVE-THE-HOBBITS/Images/start.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2em;
+    color: red
+}
+
+#start{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2em
+} */
+
+.score{
+    position: fixed;
+    color: white;
+    font-size: 60px;
+    padding-left: 80px;
+    padding-top: 50px;
+    user-select: none;
+}
+.life{
+    color: white;
+    position: fixed;
+    padding-left: 850px;
+    padding-top: 50px;
+    font-size: 60px;
+    user-select: none;
+}
+.numorc{
+    color: white;
+    position: fixed;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 400px;
+    user-select: none;
+}
+.start-page{
+    /* background-image: url(../SAVE-THE-HOBBITS/Images/start.jpg);
+    background-repeat: no-repeat; */
+    position:absolute;
+    width: 2000px;
+    height:1500px;
+    background-color: black;
+}
+.box{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+   justify-content: center;
+   padding: 150px;
+}
+
+.end-page{
+    position:absolute;
+    width: 2000px;
+    height:1500px;
+    background-color: green;
+}
+
+.box2{
+    background-color:pink;
+    width: 500px;
+    height: 500px;
+   justify-content: center;
+   padding: 150px;
+}

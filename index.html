@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVE THE HOBBITS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- START PAGE -->
+    <div class="start-page" id="cleanEl">
+        <div class="box">
+        <h1>SAVE THE HOBBITS</h1>
+        <p>The orcs want to invade the Shire.<br>
+            Those wretches destroy everything in their path.<br>
+            We cannot stand idly by.<br>
+            We have to fight!</p>
+            
+            <h2>Let the battle begin!</h2>
+
+        <button id="start-btn">Start Game</button>
+        </div>
+    </div>
+
+    <!-- END PAGE -->
+    <div class="end-page" id="endEl">
+        <div class="box2">
+        <h1>Sorry, you are not inmortal</h1>
+        <p>You have done your best, but it wasn't enought<br>
+            The orcs have invaded all the Shire.</p>
+            
+            <h2>Try again if you think you are ready this time!</h2>
+
+        <button id="restart-btn">Start Game</button>
+        </div>
+    </div>
+
+
+    <div class="score"><span>Score: </span><span id="scoreEl">0</span></div>
+    <div class="numorc"><span>Dead Orcs: </span><span id="numorcEl">0</span></div>
+    <div class="life"><span>Lifes: </span><span id="lifeEl">3</span></div>
+    <canvas id = "canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
