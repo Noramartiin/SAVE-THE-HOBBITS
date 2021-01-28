@@ -2,18 +2,7 @@ body {
   font-family: "MedievalSharp", cursive;
 }
 
-#logo{
-    width: 50px;
-    margin-top: 180px;
-    margin-left: 480px;
-    position: absolute;
-}
-#logo2{
-    width: 50px;
-    margin-top: 150px;
-    margin-left: 480px;
-    position: absolute;
-}
+/* GAME-HEADER */
 
 .score {
   position: fixed;
@@ -42,8 +31,10 @@ body {
   user-select: none;
 }
 
+/* START-PAGE */
+
 .start-page {
-  background-image: url(./Images/startp.jpg);
+  background-image: url(./Images/Start-page.jpg);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -58,7 +49,6 @@ body {
 
 .pstart {
   color: black;
-  /* margin-top: 10px; */
   margin-left: 80px;
   padding: 10px;
   font-size: 18px;
@@ -76,7 +66,7 @@ body {
 }
 
 #start-btn {
-    position: relative;
+  position: relative;
   margin-left: 230px;
   text-decoration: none;
   padding: 5px;
@@ -87,6 +77,15 @@ body {
   opacity: 0.6;
   border-width: 8px;
 }
+
+#logo {
+  width: 50px;
+  margin-top: 180px;
+  margin-left: 480px;
+  position: absolute;
+}  
+
+/* END-PAGE */
 
 .end-page {
   background-image: url(./Images/end.rct);
@@ -103,7 +102,6 @@ body {
 
 .pend {
   color: black;
-  /* margin-top: 10px; */
   margin-left: 75px;
   padding: 10px;
   font-size: 18px;
@@ -130,4 +128,11 @@ body {
   font-family: "MedievalSharp", cursive;
   opacity: 0.6;
   border-width: 8px;
+}
+
+#logo2 {
+  width: 50px;
+  margin-top: 150px;
+  margin-left: 480px;
+  position: absolute;
 }
