@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SAVE THE HOBBITS</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- START PAGE -->
     <div class="start-page" id="cleanEl">
-        <div class="box">
-        <h1>SAVE THE HOBBITS</h1>
-        <p>The orcs want to invade the Shire.<br>
-            Those wretches destroy everything in their path.<br>
-            We cannot stand idly by.<br>
-            We have to fight!</p>
-            
-            <h2>Let the battle begin!</h2>
+    <audio src = "./Sound/Cut-The Ring Goes South.m4a"  id = "startm" loop></audio>
+      
+    <div class="box">
+        
+        <h1 class="h1start">| SAVE THE HOBBITS |</h1>
+        <p class="pstart">
+          The orcs want to invade the Shire.<br />
+          Those wretches destroy everything in their path.<br />
+          We cannot stand idly by.<br />
+          We have to fight!
+        </p>
+         <img src="./Images/Valorsin.png" id="logo" alt="Valor Logo">
+        <h2 class="h2start">| Let the battle begin |</h2>
 
         <button id="start-btn">Start Game</button>
-        </div>
+
+       
+
+      </div>
+    </div>
+
+    <div>
+        <audio src = "./Sound/Cut- The Battle of the Pelennor Fields.m4a"  id = "gamem" loop></audio>
+        <audio src = "./Sound/swords.m4a"  id = "swordsm" loop></audio>
+        <audio src = "./Sound/Cut- The Battle of the Pelennor Fields.m4a"  id = "gamem2" loop></audio>
+        <audio src = "./Sound/Plaza del Desierto.m4a"  id = "throwa"></audio>
+        <audio src = "./Sound/OrcWalking.m4a"  id = "orcWalk"></audio>
+        <audio src = "./Sound/OrcDeath.m4a"  id = "orcDeath"></audio>
+        <audio src = "./Sound/OrcWins.m4a"  id = "orcWins"></audio>
+        <audio src = "./Sound/HobbitDeath.m4a"  id = "hobbitDeath"></audio>
     </div>
 
     <!-- END PAGE -->
     <div class="end-page" id="endEl">
-        <div class="box2">
-        <h1>Sorry, you are not inmortal</h1>
-        <p>You have done your best, but it wasn't enought<br>
-            The orcs have invaded all the Shire.</p>
-            
-            <h2>Try again if you think you are ready this time!</h2>
+      <div class="box2">
+        <h1 class="h1end">| Sorry, you are not inmortal |</h1>
+        <p class="pend">
+          You have done your best, but it wasn't enought<br />
+          The orcs have invaded all the Shire.
+        </p>
+         <img src="./Images/Valorsin.png" id="logo2" alt="Valor Logo">
+        <h2 class="h2end">
+          | Try again if you think you are ready this time |
+        </h2>
 
         <button id="restart-btn">Start Game</button>
-        </div>
+    </div>
     </div>
 
-
     <div class="score"><span>Score: </span><span id="scoreEl">0</span></div>
-    <div class="numorc"><span>Dead Orcs: </span><span id="numorcEl">0</span></div>
+    <div class="numorc">
+      <span>Dead Orcs: </span><span id="numorcEl">0</span>
+    </div>
     <div class="life"><span>Lifes: </span><span id="lifeEl">3</span></div>
-    <canvas id = "canvas"></canvas>
+    <canvas id="canvas"></canvas>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
