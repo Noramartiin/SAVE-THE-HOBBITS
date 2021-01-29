@@ -318,7 +318,7 @@ function startGame() {
 
   intervalID = setInterval(() => {
     requestAnimationFrame(animate);
-  }, 10);
+  }, 15);
 }
 
 startBtn.addEventListener("click", function () {
