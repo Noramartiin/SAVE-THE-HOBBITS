@@ -57,13 +57,13 @@ hobbit.src = "./Images/Hobbit.png";
 //SOUNDS
 
 let startm = document.querySelector("#startm");
-startm.volume = 0.15;
+startm.volume = 0.2;
 
 let gamem = document.querySelector("#gamem");
-gamem.volume = 0.1;
+gamem.volume = 1;
 
 let gamem2 = document.querySelector("#gamem2");
-gamem2.volume = 0.1;
+gamem2.volume = 0.3;
 
 let throwa = document.querySelector("#throwa");
 throwa.volume = 0.4;
@@ -193,6 +193,9 @@ function spawnEnemies() {
   for (i = 0; i < enemies.length; i++) {
     enemies[i].drawEnemy();
     orcWalk.play();
+    if (enemies[i].x == 100) {
+      enemies.push(new Orc());
+    }
     enemies[i].x--;
   }
 }
@@ -315,7 +318,7 @@ function startGame() {
 
   intervalID = setInterval(() => {
     requestAnimationFrame(animate);
-  }, 15);
+  }, 10);
 }
 
 startBtn.addEventListener("click", function () {
