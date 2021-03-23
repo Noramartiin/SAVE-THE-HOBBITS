@@ -18,4 +18,4 @@ At the top of the screen you can see: your score, the amount of dead orcs and th
 
 TRY THE GAME:
 
-https://noramartiin.github.io/SAVE-THE-HOBBITS/
+https://save-the-hobbits.netlify.app/
