@@ -23,3 +23,9 @@ At the top of the screen you can see: your score, the amount of dead orcs and th
 TRY THE GAME:
 
 https://save-the-hobbits.netlify.app/
+
+## BUILT WITH
+
+- HTML5
+- CSS3
+- JavaScript
